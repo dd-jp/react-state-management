@@ -1,10 +1,10 @@
 # React Global State Management Demo
 
-[![Deploy to GitHub Pages](https://github.com/YOUR_USERNAME/react-state-management/actions/workflows/deploy.yml/badge.svg)](https://github.com/YOUR_USERNAME/react-state-management/actions/workflows/deploy.yml)
+[![Deploy to GitHub Pages](https://github.com/dd-jp/react-state-management/actions/workflows/deploy.yml/badge.svg)](https://github.com/YOUR_USERNAME/react-state-management/actions/workflows/deploy.yml)
 
 **A demonstration of global state management using React Context API**
 
-🚀 **[Live Demo](https://YOUR_USERNAME.github.io/react-state-management/)** - Try it now!
+🚀 **[Live Demo](https://dd-jp.github.io/react-state-management/)** - Try it now!
 
 This project showcases how to implement **scalable global state management** in React applications using the **Context API** pattern. Built with TypeScript, Vite, and Salt DS, it demonstrates best practices for:
 
