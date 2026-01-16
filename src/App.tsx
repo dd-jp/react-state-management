@@ -1,4 +1,4 @@
-import { FlowLayout } from '@salt-ds/core'
+import { StackLayout } from '@salt-ds/core'
 import {
   CountController,
   CountDisplay,
@@ -8,16 +8,15 @@ import {
 export function App() {
   return (
     <CounterStoreProvider>
-      <FlowLayout
+      <StackLayout
         direction="column"
         gap={4}
         align="center"
-        justify="center"
         style={{ minHeight: '100vh', padding: '2rem' }}
       >
         <CountDisplay />
         <CountController />
-      </FlowLayout>
+      </StackLayout>
     </CounterStoreProvider>
   )
 }

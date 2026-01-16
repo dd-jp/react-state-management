@@ -1,4 +1,4 @@
-import { Card, Display1, FlowLayout, Text } from '@salt-ds/core'
+import { Card, Display1, StackLayout, Text } from '@salt-ds/core'
 import { useGetCounterStore } from '../CounterContext'
 
 export function CountDisplay() {
@@ -12,7 +12,7 @@ export function CountDisplay() {
         minWidth: '300px',
       }}
     >
-      <FlowLayout direction="column" gap={2} align="center">
+      <StackLayout direction="column" gap={2} align="center">
         <Text styleAs="h2" color="secondary">
           Current Count
         </Text>
@@ -32,7 +32,7 @@ export function CountDisplay() {
           {count < 0 &&
             `${Math.abs(count)} ${Math.abs(count) === 1 ? 'click' : 'clicks'} below zero`}
         </Text>
-      </FlowLayout>
+      </StackLayout>
     </Card>
   )
 }
